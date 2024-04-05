@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+
+int ID;
+printf("Enter your ID :"); 
+scanf("%i", &ID);
+
+switch(ID) {
+    
+case 1234: 
+            printf("\nWelcome Amr\nYour ID is 1234");
+            break;
+case 5678:
+            printf("\nWelcome Maha\nYour ID is 5678");
+            break;
+case 91012: 
+            printf("\nWelcome Ahmed\nYour ID is 91012");
+            break;
+
+default: 
+            printf("\nPlease enter a valid ID\n");
+}
+return 0;
+}
